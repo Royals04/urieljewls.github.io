@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urieljewls - Diseñador de Joyería 3D Personalizada</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            color: gold;
+        }
+        header p {
+            font-size: 1.2em;
+            color: #ccc;
+        }
+        .portfolio-item {
+            margin-bottom: 50px;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+            border: 2px solid gold;
+        }
+        .portfolio-item h2 {
+            text-align: center;
+            margin: 20px 0 10px;
+            color: gold;
+        }
+        .portfolio-item p {
+            text-align: center;
+            color: #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #444;
+            color: #ccc;
+        }
+        footer a {
+            color: gold;
+            text-decoration: none;
+        }
+        .contact {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .contact a {
+            color: gold;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Urieljewls</h1>
+            <p>Diseñador de Joyería 3D Personalizada</p>
+        </header>
+        <section>
+            <div class="portfolio-item">
+                <h2>Trabajo 1</h2>
+                <img src="tu-imagen-1.jpg" alt="Trabajo 1">
+                <p>Descripción del Trabajo 1.</p>
+            </div>
+            <div class="portfolio-item">
+                <h2>Trabajo 2</h2>
+                <img src="tu-imagen-2.jpg" alt="Trabajo 2">
+                <p>Descripción del Trabajo 2.</p>
+            </div>
+            <!-- Agrega más trabajos aquí -->
+        </section>
+        <div class="contact">
+            <p>Contacto: +52 3531036508 | <a href="mailto:oscar.urie.viera@hotmail.com">oscar.urie.viera@hotmail.com</a></p>
+        </div>
+        <footer>
+            <p>&copy; 2024 Urieljewls. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
+</html>
